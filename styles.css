@@ -7,23 +7,18 @@ body {
   background-color: gray;
   color: wheat;
 }
-
-.info{
-  margin-bottom: 20px;
+@media (max-width: 500px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
 }
-   @media(max-width: 500px) {
-      .info{
-        display: block;
-        text-align: center;
-
-      }
-    }
 .card-hobbies {
   background-color: orange;
   border-radius: 10px;
   border: 6px solid black;
   padding: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .card-social-networks {
@@ -121,7 +116,7 @@ body {
 
 .card-hobbies {
   margin-bottom: 10px;
-  border-bottom: 2px solid brown;
+  border-bottom: 6px solid black;
   padding-bottom: 5px;
 }
 
@@ -160,16 +155,15 @@ body {
   margin-right: 0;
 }
 
-@media(max-width: 500px){
-  .form-display{
+@media (max-width: 500px) {
+  .form-display {
     display: block;
   }
 
-  .form-display .form-group{
+  .form-display .form-group {
     width: 100%;
     margin-right: 0;
     margin-bottom: 10px;
-
   }
 }
 .form-group label {
