@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  font-family: OpenSans, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.6em;
+  background-color: gray;
+  color: wheat;
+}
+
+.info{
+  margin-bottom: 20px;
+}
+   @media(max-width: 500px) {
+      .info{
+        display: block;
+        text-align: center;
+
+      }
+    }
+.card-hobbies {
+  background-color: orange;
+  border-radius: 10px;
+  border: 6px solid black;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.card-social-networks {
+  background-color: crimson;
+  border-radius: 10px;
+  border: 6px solid black;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card-work-experience {
+  background-color: indigo;
+  border-radius: 10px;
+  border: 6px solid black;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.avatar {
+  border-radius: 30px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+  padding: 15px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  font-family: inherit;
+  color: wheat;
+  background: black;
+}
+
+.btn:hover {
+  font-size: 1.5rem;
+  transition: all 0.5s;
+}
+
+.card-hobbies {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding: 0 20px;
+}
+
+.card-social-networks a {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding: 0 20px;
+}
+.card-work-experience td {
+  margin-bottom: 10px;
+  border-bottom: 2px solid brown;
+  padding-bottom: 5px;
+}
+
+.card-hobbies {
+  color: brown;
+  margin-bottom: 10px;
+}
+.card-social-networks a {
+  color: brown;
+  margin-bottom: 10px;
+}
+.card-work-experience td {
+  color: brown;
+  margin-bottom: 10px;
+}
+
+.card-work-experience h2 {
+  color: blue;
+  margin-bottom: 10px;
+}
+
+.card-hobbies h2 {
+  color: blue;
+  margin-bottom: 10px;
+}
+
+.card-social-networks h2 {
+  color: blue;
+  margin-bottom: 10px;
+}
+.card-social-networks a {
+  margin-bottom: 10px;
+  border-bottom: 2px solid brown;
+  padding-bottom: 5px;
+}
+
+.card-hobbies {
+  margin-bottom: 10px;
+  border-bottom: 2px solid brown;
+  padding-bottom: 5px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+.table td:nth-child(2) {
+  color: green;
+}
+
+.table td:nth-child(3) {
+  color: green;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form-display {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.form-display .form-group {
+  /* display: inline-block; */
+  margin-right: 18px;
+  width: 50%;
+  /* width: calc(50% - 20px); */
+}
+
+.form-display .form-group:last-child {
+  margin-right: 0;
+}
+
+@media(max-width: 500px){
+  .form-display{
+    display: block;
+  }
+
+  .form-display .form-group{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+
+  }
+}
+.form-group label {
+  display: block;
+  font-size: 15px;
+  color: wheat;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid black;
+  padding: 5px 15px 5px 15px;
+  outline: none;
+  font-family: inherit;
+}
